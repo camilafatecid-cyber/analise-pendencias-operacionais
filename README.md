@@ -21,7 +21,8 @@ Analisar o volume de pendências operacionais e identificar gargalos que impacta
 4. Construção de dashboard
 
 ## 📈 Dashboard
-*(adicione aqui o print depois)*
+<img width="1278" height="708" alt="Captura de tela 2026-04-16 183052" src="https://github.com/user-attachments/assets/cd541b06-0e56-445b-b3cb-ef336cb45f0e" />
+
 
 ## 🚀 Próximos passos
 - Automatizar atualização dos dados
