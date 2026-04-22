@@ -1,4 +1,4 @@
-# Análise de Pendências Operacionais
+## Análise de Pendências Operacionais e Identificação de Gargalos
 
 ![Dashboard](docs/dashboard.png)
 
