@@ -1,0 +1,6 @@
+id,colaborador,departamento,status,data_criacao,data_prazo,data_conclusao
+1,Ana,Financeiro,Concluído,2024-01-01,2024-01-05,2024-01-04
+2,Bruno,Marketing,Atrasado,2024-01-02,2024-01-06,
+3,Carlos,Operações,Concluído,2024-01-03,2024-01-07,2024-01-06
+4,Ana,Financeiro,Atrasado,2024-01-04,2024-01-06,
+5,Bruno,Marketing,Concluído,2024-01-05,2024-01-08,2024-01-07
