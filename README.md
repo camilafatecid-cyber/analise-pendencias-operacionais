@@ -1,5 +1,7 @@
 # Análise de Pendências Operacionais
 
+![Dashboard](docs/dashboard.png)
+
 ## Contexto
 Esse projeto nasceu de uma situação comum em operações: mesmo com um tempo médio de resolução relativamente baixo, ainda existe um volume alto de tarefas atrasadas.
 
@@ -32,11 +34,6 @@ Com base nisso, algumas ações que poderiam melhorar a operação:
 - criar alertas para tarefas próximas do vencimento  
 - monitorar reincidência de atraso por usuário/área  
 - revisar critérios de priorização  
-
-## Dashboard
-Abaixo está uma visão geral dos indicadores construídos para análise:
-
-![Dashboard](docs/dashboard.png)
 
 ## Como o projeto foi construído
 - Tratamento e limpeza dos dados com **Python (ETL)**  
