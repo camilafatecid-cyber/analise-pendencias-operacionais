@@ -5,12 +5,8 @@ Esse projeto nasceu de uma situação comum em operações: mesmo com um tempo m
 
 A ideia aqui foi entender o que está por trás disso — não só olhando tempo médio, mas principalmente distribuição de demandas, acúmulo de backlog e padrões de atraso.
 
----
-
 ## Objetivo
 Analisar as pendências operacionais para identificar gargalos no processo e gerar insights que ajudem na tomada de decisão e na melhoria do fluxo de trabalho.
-
----
 
 ## Principais Insights
 - Cerca de **40% das tarefas estavam em atraso**
@@ -18,9 +14,7 @@ Analisar as pendências operacionais para identificar gargalos no processo e ger
 - **Concentração de pendências em alguns usuários**
 - Presença de **backlog acumulado**, mesmo com boa média de resolução
 
-Na prática, isso mostra que o problema não está só em “quanto tempo leva”, mas em **como o trabalho está distribuído e priorizado**.
-
----
+Na prática, isso mostra que o problema não está só em “quanto tempo leva”, mas em como o trabalho está distribuído e priorizado.
 
 ## Análise
 Durante a exploração dos dados, alguns padrões chamaram atenção:
@@ -29,8 +23,6 @@ Durante a exploração dos dados, alguns padrões chamaram atenção:
 - possíveis pontos de sobrecarga  
 - falta de visibilidade sobre tarefas próximas do prazo  
 - acúmulo em determinados períodos  
-
----
 
 ## Recomendações
 Com base nisso, algumas ações que poderiam melhorar a operação:
@@ -41,22 +33,15 @@ Com base nisso, algumas ações que poderiam melhorar a operação:
 - monitorar reincidência de atraso por usuário/área  
 - revisar critérios de priorização  
 
----
-
 ## Dashboard
 Abaixo está uma visão geral dos indicadores construídos para análise:
 
-<img width="1278" height="708" alt="Captura de tela 2026-04-16 183052" src="https://github.com/user-attachments/assets/a872a2c1-c74b-44c7-baa6-5a3b02098320" />
-
-
----
+![Dashboard](docs/dashboard.png)
 
 ## Como o projeto foi construído
 - Tratamento e limpeza dos dados com **Python (ETL)**  
 - Consultas e análises com **SQL**  
 - Visualização dos indicadores no **Power BI**  
-
----
 
 ## Estrutura
 - `data/raw` → dados brutos  
@@ -65,15 +50,11 @@ Abaixo está uma visão geral dos indicadores construídos para análise:
 - `dashboard/` → arquivo do Power BI  
 - `docs/` → imagens e apoio visual  
 
----
-
 ## Próximos passos
 - automatizar a atualização dos dados  
 - criar acompanhamento contínuo dos indicadores  
 - evoluir para análises preditivas de atraso  
 - integrar com alguma ferramenta de monitoramento  
 
----
-
 ## Observação
-O foco desse projeto não foi só a análise em si, mas principalmente **traduzir dados em possíveis melhorias práticas para a operação**.
+O foco desse projeto não foi só a análise em si, mas principalmente traduzir dados em possíveis melhorias práticas para a operação.
